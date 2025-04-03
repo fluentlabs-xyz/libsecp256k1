@@ -9,8 +9,8 @@ keywords = ["crypto", "ECDSA", "secp256k1", "bitcoin", "no_std"]
 edition = "2018"
 
 [dependencies]
-#subtle = { version = "2.2", default-features = false }
-subtle = { path = "../../subtle", default-features = false }
+subtle = { git = "https://github.com/fluentlabs-xyz/subtle", branch = "feat/svm-2.4.1", default-features = false }
+#subtle = { path = "../../subtle", default-features = false }
 crunchy = "0.2"
 digest = "0.9"
 
