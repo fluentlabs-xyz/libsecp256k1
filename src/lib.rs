@@ -13,6 +13,7 @@
     unused_parens
 )]
 #![cfg_attr(not(feature = "std"), no_std)]
+// #![no_std]
 
 pub use libsecp256k1_core::*;
 
